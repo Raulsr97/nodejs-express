@@ -39,3 +39,6 @@ Módulos en Node.js
     - Es más fácil encontrar y corregir 'bugs'.
     - Es más fácil modificar el código.
     - Es más fácil agregar una nueva funcionalidad.
+
+Importar un módulo: Darle acceso a funciones y elementos definidos en otro módulo, para importar un módulo a otro debemos exportarlo.
+
