@@ -42,3 +42,36 @@ Módulos en Node.js
 
 Importar un módulo: Darle acceso a funciones y elementos definidos en otro módulo, para importar un módulo a otro debemos exportarlo.
 
+Módulo process: Provee infrormación sobre el proceso de Node.js que se está ejecutando, también puede tener cierto control sobre el proceso.
+
+Módulo timers: Contiene funciones que ejecutan código luego de un cierto periodo de tiempo.
+ - setTiemout()
+ - setImmediate()
+ - setInterval()
+
+
+JSON(JavaScript Object Notation): 
+ - **Formato de texto** usado para almacenar y transportar información
+ - Basado en la notación de objetos de JavaScript 
+ - Nos permite almacenar objetos de JavaScript como objetos 
+ - Los datos se representan como **pares clave-valor**(propiedades)
+
+
+package-lock.json:
+ - Se genera automaticamente cuando npm modifica el árbol de node_modules o package.json
+ - Describe el árbol generado para que futuras instalaciones puedan generar exactamente el mismo árbol para que otros desarrolladores puedan instalar exactamente las mismas dependencias.
+
+
+Evento:
+ - Una acción que se realiza en la aplicación.
+
+Emitters(emisores):
+ - **Objetos** que **emiten eventos** nombrados y llaman a funciones específicas cuando ocurren.
+ - Son instancias de la clase **EventEmitter** 
+ - Tienen un método **on()** para asociar una **función(Event Handler)** al evento, esa función se ejecuta cuando ocurre el evento
+ 
+
+Módulo events:
+ - Definir
+ - Emitir
+ - Escuchar 
