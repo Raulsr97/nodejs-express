@@ -75,3 +75,17 @@ Módulo events:
  - Definir
  - Emitir
  - Escuchar 
+
+
+
+Promesas en JavaScript:
+ - Promesa: **Objeto** que representa el **eventual resultado o error** de una **operación asíncrona**.
+ - Promesa -> Pendiente(pending) -> Cumplida(fulfilled) ó Rechazada(rejected).
+ - El objeto Promesa se asocia a una **callback function**.
+ - Las promesas tienen un **método .then()** con el cual podemos decidir que ocurre cuando se completa la promesa(éxito o error).
+ - **.catch()**: Método de promesa que solo **se ejecuta si la promesa es rechazada**.
+
+Función callback:
+ - Función que se pasa a otra función como argumento y luego se ejecuta dentro de la función externa.
+
+
