@@ -84,8 +84,29 @@ Promesas en JavaScript:
  - El objeto Promesa se asocia a una **callback function**.
  - Las promesas tienen un **método .then()** con el cual podemos decidir que ocurre cuando se completa la promesa(éxito o error).
  - **.catch()**: Método de promesa que solo **se ejecuta si la promesa es rechazada**.
+ - Las funciones asincronas retornan promesas
 
 Función callback:
  - Función que se pasa a otra función como argumento y luego se ejecuta dentro de la función externa.
 
 
+
+Modelo cliente-servidor:
+ - Modelo que usamos para acceder a internet y obtener recursos e información 
+ - Cliente: El navegador desde el cual se realizan solicitudes a un servidor.
+ - Servidor: Programa que se ejecuta en un servidor fisico para ofrecer un servicio al cliente. Envía información.
+ - Protocolo: Conjunto de reglas que permiten transmitir infromación entre dispositivos de una red.
+
+Protocolo HTTP:
+ - Hypertext Transfer Protocol(Protocolo de transferencia de hypertexto)
+
+Solicitud HTTP(Request): 
+ - Metodos HTTP
+ - Camino(path)
+ - Version de HTTP
+ - Cabeceras(headers)
+ - Cuerpo(body)
+
+Metodo HTTP:
+ - Verbo o sustantivo que indica la intencion de la solicitud.
+ 
