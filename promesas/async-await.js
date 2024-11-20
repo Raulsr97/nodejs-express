@@ -21,16 +21,12 @@ function procesarPedido(respuesta) {
     })
 }
 
-async function realizarPedido(producto) {
-    try {
-        const respuesta = await ordenarProducto(producto)
+ordenarProducto('taza')
+    .then(respuesta => {
         console.log('Respuesta recibida');
-        const respuestaProcesada = await procesarPedido(respuesta)
-        console.log(respuestaProcesada);
-    } catch (error) {
-        console.error(error);
-    }
-}
+        console.log(respuesta);
+        return procesarPedido(respuesta)
+            
+    })
 
-realizarPedido('taza')
-
+    

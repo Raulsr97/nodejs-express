@@ -109,4 +109,29 @@ Solicitud HTTP(Request):
 
 Metodo HTTP:
  - Verbo o sustantivo que indica la intencion de la solicitud.
+ - GET: Verbo para solicitar un recurso especifico
+ - PUT: Verbo para modificar un recurso especifico.
+ - POST: Verbo  para crear un recurso especifico.  
+ - DELETE: Verbo para eliminar un recurso especifico.
+ - OTROS...
+
+Respuestas HTTP:
+ - Código de estado
+ - Text de estado
+ - Versión de HTTP
+ - Cabeceras(headers): Opcionales, proveen información adicional sobre la respuesta
+ - Cuerpo(body): Contiene la información que se debe enviar desde el servidor hacia el cliente
+
+Códigos de estado:
+ - Números que indican si se ha completado exitosamente la solicitud HTTP
+ - Respuestas informativas (100-199)
+ - Respuestas satisfactoriaS (200, 299)
+ - Redirecciones (300-399)
+ - Errores de los clientes (400-499)
+ - Errores del servidor (500-599)
+
+Módulo HTTP:
+ - Este módulo le permite a Node.js transmitir información con el protocolo HTTP
  
+Puerto:
+ - Ubicacion virtual del sistema operativo en el cual se puede acceder a una aplicacion o a un proceso especifico que se este ejecutando en ese puerto
